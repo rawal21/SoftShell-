@@ -8,6 +8,7 @@ import ContactForm from "./components/ContectForm.jsx"
 import Footer from "./components/Footer"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./App.css"
+import ChatBot from "./components/ChatBot.jsx"
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <ContactForm/>
         </main>
         <Footer />
+        <ChatBot/>
       </div>
     </ThemeProvider>
   )

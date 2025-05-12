@@ -1,0 +1,82 @@
+.footer {
+  background-color: var(--card);
+  padding: 4rem 0 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.top {
+  margin-bottom: 3rem;
+}
+
+.brand h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--foreground);
+}
+
+.brand p {
+  color: var(--muted-foreground);
+  max-width: 300px;
+}
+
+.linkGroup h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  color: var(--foreground);
+}
+
+.linkGroup li {
+  margin-bottom: 0.75rem;
+}
+
+.linkGroup a {
+  color: var(--muted-foreground);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.linkGroup a:hover {
+  color: var(--primary);
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.bottom p {
+  color: var(--muted-foreground);
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+.social {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.social a {
+  color: var(--muted-foreground);
+  transition: color 0.3s ease;
+}
+
+.social a:hover {
+  color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 3rem 0 1.5rem;
+  }
+
+  .bottom {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+  }
+}
